@@ -1,0 +1,48 @@
+.text-slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .scrollable-list {
+    max-height: 400px; /* Adjust the max height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    
+  }
+  .scrollable-list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+  }
+  .text-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Each slide takes full width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust slide height as needed */
+    background-color: #ffffff;
+    color: #727070;
+    font-size: 24px;
+  }
+  
+  .prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: rgb(165, 165, 165);
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  

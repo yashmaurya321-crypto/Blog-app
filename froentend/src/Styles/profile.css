@@ -1,0 +1,28 @@
+/* Profile.css */
+.container {
+    height: 90vh; /* Full viewport height */
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .left-column {
+    flex: 1;
+  }
+  
+  .right-column {
+    flex: 0 0 33.33%; /* This makes the column 1/3rd of the width */
+    border-left: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .scrollable-list {
+    max-height: 400px; 
+    overflow-y: auto; 
+    
+  }
+  .scrollable-list::-webkit-scrollbar {
+    display: none; 
+  }

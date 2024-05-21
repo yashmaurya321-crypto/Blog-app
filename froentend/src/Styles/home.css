@@ -1,0 +1,12 @@
+/* Media query for responsiveness */
+@media (max-width: 750px) {
+    .col-8 {
+      width: 100%; /* Full width for col-8 when viewport width is 600px or less */
+      border-right: none; /* Remove right border for col-8 */
+    }
+  
+    .col-4 {
+      display: none; /* Hide col-4 when viewport width is 600px or less */
+    }
+  }
+  
