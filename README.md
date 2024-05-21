@@ -3,6 +3,12 @@
 ## Introduction
 The Blog App is a platform where users can write, publish, and share their blogs with others. It features user authentication using JWT, registration and login pages, a home page displaying blogs, a comment section, and the ability to like and follow favorite writers. The app is built with the MERN stack (MongoDB, Express, React, Node.js) and styled with Bootstrap to ensure responsiveness.
 
+## Images 
+<img src="/1.png" width="300" height="200" alt="Project Screenshot">   <img src="/2.png" width="300" height="200" alt="Project Screenshot">   
+<img src="/5.png" width="300" height="200" alt="Project Screenshot">   <img src="/4.png" width="300" height="200" alt="Project Screenshot">   
+<img src="/6.png" width="300" height="200" alt="Project Screenshot">   <img src="/7.png" width="300" height="200" alt="Project Screenshot">   
+<img src="/8.png" width="300" height="200" alt="Project Screenshot">   <img src="/9.png" width="300" height="200" alt="Project Screenshot">   
+<img src="/10.png" width="300" height="200" alt="Project Screenshot">   
 ## Features
 - **User Authentication**: Secure JWT authentication for registration and login.
 - **Home Page**: Displays blogs sorted by category and popularity (likes).
